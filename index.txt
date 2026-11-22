@@ -832,7 +832,7 @@ input,select{font-family:inherit;}
 <script>
 // ===== Pengganti google.script.run -> memanggil Apps Script lewat fetch (dengan token sesi) =====
 (function () {
-  var API_URL = '';   // WAJIB DIISI: URL Web App Apps Script yang berakhiran /exec
+  var API_URL = 'https://script.google.com/macros/s/AKfycbyxi0HvqULBqb69GLx51BrNmOt5Va5FP6EjFcFwv8Tw2sMX2R0XjREC-IEy_RZ5u6Ev/exec';   // WAJIB DIISI: URL Web App Apps Script yang berakhiran /exec
   var KEY = 'WMS_SESSION_V1';
 
   window.WMS_getSession = function () {
